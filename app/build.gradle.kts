@@ -49,12 +49,9 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.1")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.1")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    implementation ("androidx.navigation:navigation-safe-args-gradle-plugin:2.7.1")
 
     val camerax_version = "1.2.2"
     implementation ("androidx.camera:camera-core:${camerax_version}")
@@ -63,5 +60,7 @@ dependencies {
     implementation ("androidx.camera:camera-video:${camerax_version}")
     implementation ("androidx.camera:camera-view:${camerax_version}")
     implementation ("androidx.camera:camera-extensions:${camerax_version}")
+
+    implementation ("com.google.guava:guava:31.0.1-android")
 
 }

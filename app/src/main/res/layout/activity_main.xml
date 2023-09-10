@@ -20,7 +20,7 @@
         android:layout_marginEnd="50dp"
         android:elevation="2dp"
         android:text="@string/take_photo"
-        app:layout_contstraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintEnd_toStartOf="@id/vertical_centerline"/>
     <Button
@@ -31,10 +31,11 @@
         android:layout_marginEnd="50dp"
         android:elevation="2dp"
         android:text="@string/start_capture"
-        app:layout_contstraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/vertical_centerline"/>
 
     <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_centerline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
